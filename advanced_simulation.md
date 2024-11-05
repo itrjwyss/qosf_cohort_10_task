@@ -117,7 +117,7 @@ for i in range(1, qubits + 1):
     final_time.append(quantum_circuit.run_circuit())
 ```
 
-This code is the heart of the simulation, at the `final_time` array will be save the execution time for each simulation (n qubits). 
+This code is the heart of the simulation, at the `final_time` array will be saved the execution time for each simulation (n qubits). 
 Then is a for loop that will achieve n simulations, up the number of qubits defined. Inside the for loop is being created a
 `QuantumCircuit` object to represente the circuit with n qubits. Finally is being executed the circuit using the 
 `run_circuit (QuantumCircuit)` function and saving the executed time at the `final_time` array.
